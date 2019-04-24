@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "0e87e6e4224aa6e267e4dad930a4203b",
-    "url": "/AndraGh/static/media/art5.0e87e6e4.png"
+    "revision": "204cf89661da49f7be9be0d9c4924165",
+    "url": "/AndraGh/static/media/art5.204cf896.png"
   },
   {
-    "revision": "79d011f7f12636bae499",
+    "revision": "0fcee367ad4c7b548c8d",
     "url": "/AndraGh/static/css/main.c8374775.chunk.css"
   },
   {
@@ -36,32 +36,32 @@ self.__precacheManifest = [
     "url": "/AndraGh/static/media/IllustrationTrinity.08a175f6.png"
   },
   {
-    "revision": "377ca6cf03d1fbc2031ce9ef4b3ee30c",
-    "url": "/AndraGh/static/media/trad1.377ca6cf.png"
+    "revision": "a1df92069b0ec2cdb5d854a3edd5b271",
+    "url": "/AndraGh/static/media/trad1.a1df9206.png"
   },
   {
-    "revision": "59630651d6bd2162153c5827342ccd02",
-    "url": "/AndraGh/static/media/trad2.59630651.png"
+    "revision": "b59b4d6457dd37ee452cc7ee5a6ca360",
+    "url": "/AndraGh/static/media/trad2.b59b4d64.png"
   },
   {
-    "revision": "a12dc16a418b40c059f5614ff9ccacda",
-    "url": "/AndraGh/static/media/trad3.a12dc16a.png"
+    "revision": "a936b125c9321add039cb37af3244f8c",
+    "url": "/AndraGh/static/media/trad3.a936b125.png"
   },
   {
-    "revision": "03d27e8f3d3e0051ad403b6432b57f89",
-    "url": "/AndraGh/static/media/trad4.03d27e8f.png"
+    "revision": "1793d6306a5c2d2b711f8e2b5aa05577",
+    "url": "/AndraGh/static/media/trad4.1793d630.png"
   },
   {
-    "revision": "22dc5b822bbd5501dc5626bdf2124f2d",
-    "url": "/AndraGh/static/media/trad5.22dc5b82.png"
+    "revision": "c912dd4728c91fc7367e5745258a8ebc",
+    "url": "/AndraGh/static/media/trad5.c912dd47.png"
   },
   {
-    "revision": "cb99ac5232b096501f98e41e5839656a",
-    "url": "/AndraGh/static/media/digital1.cb99ac52.jpg"
+    "revision": "68481b9a91883ed204dcc2324c7b5e3e",
+    "url": "/AndraGh/static/media/digital1.68481b9a.jpg"
   },
   {
-    "revision": "d9eebb0af1e9da29e3bf4e1a61769969",
-    "url": "/AndraGh/static/media/digital2.d9eebb0a.jpg"
+    "revision": "d0bb710c1029319480141ca6e68264fc",
+    "url": "/AndraGh/static/media/digital2.d0bb710c.jpg"
   },
   {
     "revision": "44ed1e8e00076258fb26c19cb1425608",
@@ -76,24 +76,24 @@ self.__precacheManifest = [
     "url": "/AndraGh/static/media/digital5.6a8b308d.png"
   },
   {
-    "revision": "98df375784b5686fe47eb212cb0ff73d",
-    "url": "/AndraGh/static/media/art1.98df3757.png"
+    "revision": "43dfda2b9fd52629b74f46695fcb7aee",
+    "url": "/AndraGh/static/media/art1.43dfda2b.png"
   },
   {
-    "revision": "1177a5d6f5d633576632fd54f6c50c84",
-    "url": "/AndraGh/static/media/art2.1177a5d6.png"
+    "revision": "7132c4c121adc9113f9312a161ba5123",
+    "url": "/AndraGh/static/media/art2.7132c4c1.png"
   },
   {
-    "revision": "65b0d8e3b8bbb18602a76aefa5290e23",
-    "url": "/AndraGh/static/media/art3.65b0d8e3.png"
+    "revision": "f9c7f3b2dce8ddfce3ca28ce3e38be35",
+    "url": "/AndraGh/static/media/art3.f9c7f3b2.png"
   },
   {
-    "revision": "3b3265f5e732d10d62778619f3085ea8",
-    "url": "/AndraGh/static/media/art4.3b3265f5.png"
+    "revision": "3af1f6e68124317d053b947eb500cbf1",
+    "url": "/AndraGh/static/media/art4.3af1f6e6.png"
   },
   {
-    "revision": "79d011f7f12636bae499",
-    "url": "/AndraGh/static/js/main.79d011f7.chunk.js"
+    "revision": "0fcee367ad4c7b548c8d",
+    "url": "/AndraGh/static/js/main.0fcee367.chunk.js"
   },
   {
     "revision": "7144e0e8fef24b30ff1970ae97a9d6f0",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/AndraGh/static/media/avatar.40a731b7.jpg"
   },
   {
-    "revision": "7e5004e65f86639a8353ee7f9765888d",
+    "revision": "c80dc5f65181e663ed265411904b12e9",
     "url": "/AndraGh/index.html"
   }
 ];
