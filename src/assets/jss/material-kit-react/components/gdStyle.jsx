@@ -50,6 +50,7 @@ const gdStyle = theme => ({
   	height: '200px', 
     border: "5px solid white", 
   	backgroundSize: 'contain !important',
+    cursor: "pointer",
   },
   desktop: {
     display: 'block',

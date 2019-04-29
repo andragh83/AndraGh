@@ -24,7 +24,7 @@ const illustrationStyle = theme => ({
   	paddingTop: '85px', 
     fontSize: "1.5rem",
     [theme.breakpoints.down("xs")]: {
-      paddingTop: "40px",
+      padding: "40px 0",
       fontSize: "1rem !important",
     },
   	color: "white", 
@@ -35,10 +35,12 @@ const illustrationStyle = theme => ({
     [theme.breakpoints.down("xs")]: {
       height: "100px",
     },
-  	backgroundSize: 'cover !important'
+  	backgroundSize: 'cover !important',
+    cursor: "pointer",
   },
   artBoxContain: {
     height: '200px',
+    cursor: "pointer",
     [theme.breakpoints.down("xs")]: {
       height: "100px",
     },
