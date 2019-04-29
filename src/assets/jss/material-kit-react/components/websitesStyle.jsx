@@ -1,7 +1,7 @@
 
 import typographyStyle from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.jsx";
 
-const websitesStyle = {
+const websitesStyle = theme => ({
 
   websitesBox: {
     textAlign: 'center', 
@@ -19,6 +19,9 @@ const websitesStyle = {
 
   alternateBox: {
   	paddingTop: '160px', 
+    [theme.breakpoints.down("xs")]: {
+      paddingTop: "10px",
+    },
     color: "white", 
     textAlign: "center",
   },
@@ -32,7 +35,19 @@ const websitesStyle = {
   	backgroundSize: 'contain !important',
 
   },
+  desktop: {
+    display: 'block',
+      [theme.breakpoints.down('sm')]: {
+        display: 'none',
+    },
+},
+  mobile: {
+    display: 'none',
+    [theme.breakpoints.down('sm')]: {
+      display: 'block',
+  }
+},
   ...typographyStyle,
- }
+ })
 
  export default websitesStyle;

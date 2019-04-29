@@ -26,12 +26,13 @@ import './SkillsWeb.css';
 class Skills extends React.Component {
 	state = {
 			display: false,
+			portfolio: "Click to see Portfolio",
 		};
 
 	Show = () => {
-		this.setState({display: true, fade: 'fadeInDown'});
+		this.setState({display: true, portfolio: "Click to hide Portfolio"});
 		if (this.state.display===true) {
-	      this.setState({display: false});
+	      this.setState({display: false, portfolio: "Click to see Portfolio"});
 	    }
 		
 	};
@@ -50,12 +51,12 @@ class Skills extends React.Component {
 		               <h1 className={classes.title}>Websites</h1>
 		              
 		               <Button color="info" round size="lg" onClick={this.Show}>
-		                  <Favorite className={classes.icons} /> Click to see Portfolio
+		                  <Favorite className={classes.icons} /> {this.state.portfolio}
 		               </Button>
 		            
 	              </GridItem>
 
-	              <GridItem xs={12} sm={12} md={6} >
+	              <GridItem className={classes.desktop} xs={12} sm={12} md={6} >
 		              <Card>
 			              <CardBody>
 				              <div className={classes.skillsCard} style={{background: `url(${skills}) no-repeat center center`}}>
@@ -92,6 +93,15 @@ class Skills extends React.Component {
 	              	</GridItem> 
 			      	:null
 			  		}
+			  	<GridItem className={classes.mobile} xs={12} sm={12} md={6} >
+		              <Card>
+			              <CardBody>
+				              <div className={classes.skillsCard} style={{background: `url(${skills}) no-repeat center center`}}>
+				              </div>
+			              </CardBody>
+		              </Card>
+	              </GridItem>
+
 	            </GridContainer>
 	          
 	      </div>

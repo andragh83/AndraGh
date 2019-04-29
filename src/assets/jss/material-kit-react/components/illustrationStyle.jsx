@@ -1,7 +1,7 @@
 
 import typographyStyle from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.jsx";
 
-const illustrationStyle = {
+const illustrationStyle = theme => ({
 
   illustrationBox: {
     textAlign: 'center', 
@@ -15,22 +15,48 @@ const illustrationStyle = {
 
   hiddenMain: {
   	margin: '10px',
+    [theme.breakpoints.down("sm")]: {
+      paddingTop: "40px",
+    },
   },
 
   alternateBox: {
-  	paddingTop: '55px', 
+  	paddingTop: '85px', 
+    fontSize: "1.5rem",
+    [theme.breakpoints.down("xs")]: {
+      paddingTop: "40px",
+      fontSize: "1rem !important",
+    },
   	color: "white", 
   	textAlign: "center"
   },
   artBox: {
   	height: '200px',
+    [theme.breakpoints.down("xs")]: {
+      height: "100px",
+    },
   	backgroundSize: 'cover !important'
   },
   artBoxContain: {
     height: '200px',
+    [theme.breakpoints.down("xs")]: {
+      height: "100px",
+    },
     backgroundSize: 'contain !important'
   },
+  desktop: {
+    display: 'block',
+      [theme.breakpoints.down('sm')]: {
+        display: 'none',
+    },
+},
+  mobile: {
+    display: 'none',
+    [theme.breakpoints.down('sm')]: {
+      display: 'block',
+  }
+},
   ...typographyStyle,
- }
+ });
 
  export default illustrationStyle;
