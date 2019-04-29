@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/AndraGh/static/media/logo3.7be82ed3.png"
   },
   {
-    "revision": "14a8212e7dd071d18195",
-    "url": "/AndraGh/static/css/main.d564b31b.chunk.css"
+    "revision": "982f77c9b6cd7fb1d6de",
+    "url": "/AndraGh/static/css/main.f85d32bf.chunk.css"
   },
   {
     "revision": "8c2c229837b720e0ba62",
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "url": "/AndraGh/static/media/logo2.86edb7a3.jpg"
   },
   {
-    "revision": "14a8212e7dd071d18195",
-    "url": "/AndraGh/static/js/main.14a8212e.chunk.js"
+    "revision": "982f77c9b6cd7fb1d6de",
+    "url": "/AndraGh/static/js/main.982f77c9.chunk.js"
   },
   {
     "revision": "4da1d54c6c864771e9f70d280a0e6188",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/AndraGh/static/media/avatar.40a731b7.jpg"
   },
   {
-    "revision": "d5db4cce245ecedb5b390436d93edc2a",
+    "revision": "0cf467f551bbd756e392fab356923815",
     "url": "/AndraGh/index.html"
   }
 ];
