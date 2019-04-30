@@ -1,13 +1,13 @@
 {
   "main.css": "/AndraGh/static/css/main.f85d32bf.chunk.css",
-  "main.js": "/AndraGh/static/js/main.c3876ce6.chunk.js",
-  "main.js.map": "/AndraGh/static/js/main.c3876ce6.chunk.js.map",
+  "main.js": "/AndraGh/static/js/main.e3e1faf0.chunk.js",
+  "main.js.map": "/AndraGh/static/js/main.e3e1faf0.chunk.js.map",
   "runtime~main.js": "/AndraGh/static/js/runtime~main.8c2c2298.js",
   "runtime~main.js.map": "/AndraGh/static/js/runtime~main.8c2c2298.js.map",
   "static/js/2.f08477d1.chunk.js": "/AndraGh/static/js/2.f08477d1.chunk.js",
   "static/js/2.f08477d1.chunk.js.map": "/AndraGh/static/js/2.f08477d1.chunk.js.map",
   "index.html": "/AndraGh/index.html",
-  "precache-manifest.dd7745f2cc8d3d16613b346f170e5932.js": "/AndraGh/precache-manifest.dd7745f2cc8d3d16613b346f170e5932.js",
+  "precache-manifest.b3ba75d3422434368ba3bf1b737a1b8d.js": "/AndraGh/precache-manifest.b3ba75d3422434368ba3bf1b737a1b8d.js",
   "service-worker.js": "/AndraGh/service-worker.js",
   "static/css/main.f85d32bf.chunk.css.map": "/AndraGh/static/css/main.f85d32bf.chunk.css.map",
   "static/media/GD.svg": "/AndraGh/static/media/GD.739d7b28.svg",
@@ -32,6 +32,7 @@
   "static/media/digital4.png": "/AndraGh/static/media/digital4.356231c6.png",
   "static/media/digital5.png": "/AndraGh/static/media/digital5.6a8b308d.png",
   "static/media/fb.png": "/AndraGh/static/media/fb.6bc10362.png",
+  "static/media/github.svg": "/AndraGh/static/media/github.76d344f0.svg",
   "static/media/insta.png": "/AndraGh/static/media/insta.cd6db2c5.png",
   "static/media/logo1.png": "/AndraGh/static/media/logo1.fc5769fb.png",
   "static/media/logo2.jpg": "/AndraGh/static/media/logo2.86edb7a3.jpg",
@@ -49,6 +50,5 @@
   "static/media/trad2.png": "/AndraGh/static/media/trad2.59630651.png",
   "static/media/trad3.png": "/AndraGh/static/media/trad3.a12dc16a.png",
   "static/media/trad4.png": "/AndraGh/static/media/trad4.03d27e8f.png",
-  "static/media/trad5.png": "/AndraGh/static/media/trad5.22dc5b82.png",
-  "static/media/twitter.png": "/AndraGh/static/media/twitter.d8c29679.png"
+  "static/media/trad5.png": "/AndraGh/static/media/trad5.22dc5b82.png"
 }
