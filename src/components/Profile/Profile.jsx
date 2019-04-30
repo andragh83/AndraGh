@@ -34,16 +34,16 @@ class Profile extends React.Component {
                 />
               
               <h2>
-                 I'm a vizual artist and a tech geek.
+                 I'm a visual artist and a tech geek.
               </h2> 
               <h4>
-              	I create illustrations, graphic designs and I build websites.
-              	I believe good design is
-              	intuitive, communicates the right messaje and 
-              	triggers the intended emotions.
-              	This is what I try to achieve through my work.
+              	I create illustrations, graphic designs and I build responsive websites.
               </h4>
-              <h5>Also I'm a mom of two boys, I love bright colors and I'm crazy about spring!</h5>
+              	<h4>I believe good design is intuitive, 
+                communicates the right messaje and 
+                triggers the intended emotions.</h4>
+              <h3>This is what I try to achieve through my work.</h3>
+              <h5>Also, I am the mom of two boys, I love bright colors and I'm crazy about spring!</h5>
               
             </GridItem>
           </GridContainer>

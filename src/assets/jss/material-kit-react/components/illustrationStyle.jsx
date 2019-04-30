@@ -24,7 +24,7 @@ const illustrationStyle = theme => ({
   	paddingTop: '85px', 
     fontSize: "1.5rem",
     [theme.breakpoints.down("xs")]: {
-      padding: "40px 0",
+      padding: "37px 0",
       fontSize: "1rem !important",
     },
   	color: "white", 
