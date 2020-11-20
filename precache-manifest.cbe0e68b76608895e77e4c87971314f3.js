@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7be82ed3756004d86ebb7210d5023874",
-    "url": "/AndraGh/static/media/logo3.7be82ed3.png"
+    "revision": "b516ff3e3a0d49dffa22",
+    "url": "/AndraGh/static/css/main.263e0f3c.chunk.css"
   },
   {
-    "revision": "e3e1faf02d12ad824b8e",
-    "url": "/AndraGh/static/css/main.f85d32bf.chunk.css"
+    "revision": "b516ff3e3a0d49dffa22",
+    "url": "/AndraGh/static/js/main.b516ff3e.chunk.js"
   },
   {
     "revision": "8c2c229837b720e0ba62",
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "url": "/AndraGh/static/media/logo2.86edb7a3.jpg"
   },
   {
-    "revision": "e3e1faf02d12ad824b8e",
-    "url": "/AndraGh/static/js/main.e3e1faf0.chunk.js"
+    "revision": "7be82ed3756004d86ebb7210d5023874",
+    "url": "/AndraGh/static/media/logo3.7be82ed3.png"
   },
   {
     "revision": "4da1d54c6c864771e9f70d280a0e6188",
@@ -168,8 +168,8 @@ self.__precacheManifest = [
     "url": "/AndraGh/static/media/insta.cd6db2c5.png"
   },
   {
-    "revision": "76d344f08412543c74ccd1fb2493d607",
-    "url": "/AndraGh/static/media/github.76d344f0.svg"
+    "revision": "d8c29679add8ba2922a2f6ee2359b44d",
+    "url": "/AndraGh/static/media/twitter.d8c29679.png"
   },
   {
     "revision": "5f8289d7b7750e357a769e9f29376be7",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/AndraGh/static/media/avatar.40a731b7.jpg"
   },
   {
-    "revision": "b20bdec76217e0c7a4036e97a4061c62",
+    "revision": "79d154a4ea550b22ff222d00e2b9fce2",
     "url": "/AndraGh/index.html"
   }
 ];
