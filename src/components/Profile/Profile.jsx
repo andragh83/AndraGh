@@ -6,7 +6,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import ScrollableAnchor from 'react-scrollable-anchor'
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 import completedStyle from "assets/jss/material-kit-react/views/componentsSections/completedStyle.jsx";
 import avatar from "assets/img/avatar.jpg";
@@ -33,17 +33,12 @@ class Profile extends React.Component {
                   }
                 />
               
-              <h2>
+              <h3>
                  I'm a visual artist and a tech geek.
-              </h2> 
+              </h3> 
               <h4>
               	I create illustrations, graphic designs and I build responsive websites.
               </h4>
-              	<h4>I believe good design is intuitive, 
-                communicates the right messaje and 
-                triggers the intended emotions.</h4>
-              <h3>This is what I try to achieve through my work.</h3>
-              <h5>Also, I am the mom of two boys, I love bright colors and I'm crazy about spring!</h5>
               
             </GridItem>
           </GridContainer>
