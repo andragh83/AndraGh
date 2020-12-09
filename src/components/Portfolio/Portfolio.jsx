@@ -8,7 +8,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
 // core components
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
-import image1 from "assets/img/Portfolio/Websites/Websites1.png";
+import image1 from "assets/img/Portfolio/Websites/Websites1.jpeg";
 import image2 from "assets/img/Portfolio/Websites/Websites2.png";
 import image3 from "assets/img/Portfolio/Websites/Websites3.png";
 
