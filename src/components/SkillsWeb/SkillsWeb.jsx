@@ -17,9 +17,9 @@ import websitesStyle from "assets/jss/material-kit-react/components/websitesStyl
 import skills from "assets/img/Skills/Webtrinity.png";
 
 import image1 from "assets/img/Portfolio/Websites/Websites1.jpeg";
-import image2 from "assets/img/Portfolio/Websites/Websites2.jpg";
-import image3 from "assets/img/Portfolio/Websites/Websites3.png";
-import image4 from "assets/img/Portfolio/Websites/Websites4.png";
+import image2 from "assets/img/Portfolio/Websites/Websites2.jpeg";
+import image3 from "assets/img/Portfolio/Websites/Websites3.jpeg";
+import image4 from "assets/img/Portfolio/Websites/Websites4.jpeg";
 
 import "./SkillsWeb.css";
 
@@ -66,15 +66,44 @@ class Skills extends React.Component {
             {this.state.display ? (
               <GridItem className="animate fadeInDown" xs={12} sm={12} md={12}>
                 <GridContainer className={classes.hiddenMain}>
-                  {/* <GridItem
+                  
+                <GridItem 
+                    className={"animate fadeInRight one"}
                     sm={12}
-                    md={4}
-                    className={classes.alternateBox}
-                    style={{ background: "#3da4ab" }}
-                  >
-                    <h3>Websites</h3>
-                    <h4>for presentation</h4>
-                  </GridItem> */}
+                    md={6}
+                    style={{
+                      display: "flex", 
+                      flexDirection: "column", 
+                      justifyContent: "center"
+                      }}>
+                    
+                    <div
+                      className={classes.artBox}
+                      style={{
+                        width: '100%',
+                        background: `linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(${image1}) no-repeat center center`
+                      }}
+                    >
+                      <div style = {{
+                        backgroundColor: "rgba(255,255,255,0.9)", 
+                        padding: "20px",
+                        display: 'flexbox', 
+                        flexDirection: 'column', 
+                        width: '50%'}}>
+                          <div style={{fontSize: '18px', fontWeight: "bold"}}>
+                          Web app using face-rec Clarifai API. I built everything from front-end to back-end and everything in between.
+                          </div>
+                          <Button
+                            color="info"
+                            href="https://smart-brain-ag.herokuapp.com/"
+                            target="_blank"                            
+                          >
+                            Click to register
+                          </Button>
+                      </div>
+                    </div>
+                  </GridItem>
+                  
                   <GridItem 
                     className={"animate fadeInRight one"}
                     sm={12}
@@ -84,50 +113,73 @@ class Skills extends React.Component {
                       flexDirection: "column", 
                       justifyContent: "center"
                       }}>
-                    <div style={{textAlign: "center"}}>Test</div>
+                    
                     <div
                       className={classes.artBox}
                       style={{
                         width: '100%',
-                        background: `url(${image1}) no-repeat center center`
+                        background: `linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(${image2}) no-repeat center center`
                       }}
                     >
-                      <Button
-                        color="info"
-                        href="https://andragh83.github.io/CountriesGuessingGame/"
-                        target="_blank"
-                      >
-                        Click to play
-                      </Button>
+                      <div style = {{
+                        backgroundColor: "rgba(255,255,255,0.9)", 
+                        padding: "20px",
+                        display: 'flexbox', 
+                        flexDirection: 'column', 
+                        width: '50%'}}>
+                          <div style={{fontSize: '18px', fontWeight: "bold"}}>
+                          Web app built with React, using data fetched from an external API.
+                          </div>
+                          <Button
+                            color="info"
+                            href="https://andragh83.github.io/CountriesGuessingGame/"
+                            target="_blank"                            
+                          >
+                            Click to play
+                          </Button>
+                      </div>
                     </div>
                   </GridItem>
-                  <GridItem
-                    className={"animate fadeInRight two " + classes.artBox}
+
+
+                  <GridItem 
+                    className={"animate fadeInRight one"}
                     sm={12}
                     md={6}
                     style={{
-                      background: `url(${image2}) no-repeat center center`
-                    }}
-                  >
-                    <Button
-                      color="info"
-                      href="https://andragh83.github.io/DianaParvu/"
-                      target="_blank"
+                      display: "flex", 
+                      flexDirection: "column", 
+                      justifyContent: "center"
+                      }}>
+                    
+                    <div
+                      className={classes.artBox}
+                      style={{
+                        width: '100%',
+                        background: `linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(${image3}) no-repeat center center`
+                      }}
                     >
-                      Click to see!
-                    </Button>
+                      <div style = {{
+                        backgroundColor: "rgba(255,255,255,0.9)", 
+                        padding: "20px",
+                        display: 'flexbox', 
+                        flexDirection: 'column', 
+                        width: '50%'}}>
+                          <div style={{fontSize: '18px', fontWeight: "bold"}}>
+                          Personal website for a person teaching public speaking, build with react on top of a Wordpress CMS.
+                          </div>
+                          <Button
+                            color="info"
+                            href="https://andragh83.github.io/DianaParvu/"
+                            target="_blank"                            
+                          >
+                            Click to see
+                          </Button>
+                      </div>
+                    </div>
                   </GridItem>
 
                   {/* <GridItem
-                    sm={12}
-                    md={4}
-                    className={classes.alternateBox}
-                    style={{ background: "#63b6bb" }}
-                  >
-                    <h3>Apps</h3>
-                    <h4>simple</h4>
-                  </GridItem> */}
-                  <GridItem
                     className={"animate fadeInRight three " + classes.artBox}
                     sm={12}
                     md={6}
@@ -142,22 +194,42 @@ class Skills extends React.Component {
                     >
                       Click to play!
                     </Button>
-                  </GridItem>
-                  <GridItem
-                    className={"animate fadeInRight four " + classes.artBox}
+                  </GridItem> */}
+                  <GridItem 
+                    className={"animate fadeInRight one"}
                     sm={12}
                     md={6}
                     style={{
-                      background: `url(${image4}) no-repeat center center`
-                    }}
-                  >
-                    <Button
-                      color="info"
-                      href="https://andragh83.github.io/color-game-practice-webdevbootcamp/"
-                      target="_blank"
+                      display: "flex", 
+                      flexDirection: "column", 
+                      justifyContent: "center"
+                      }}>
+                    
+                    <div
+                      className={classes.artBox}
+                      style={{
+                        width: '100%',
+                        background: `linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(${image4}) no-repeat center center`
+                      }}
                     >
-                      Click to play!
-                    </Button>
+                      <div style = {{
+                        backgroundColor: "rgba(255,255,255,0.9)", 
+                        padding: "20px",
+                        display: 'flexbox', 
+                        flexDirection: 'column', 
+                        width: '50%'}}>
+                          <div style={{fontSize: '18px', fontWeight: "bold"}}>
+                          Funny color guessing game.
+                          </div>
+                          <Button
+                            color="info"
+                            href="https://andragh83.github.io/color-game-practice-webdevbootcamp/"
+                            target="_blank"                            
+                          >
+                            Click to play
+                          </Button>
+                      </div>
+                    </div>
                   </GridItem>
                 </GridContainer>
               </GridItem>
