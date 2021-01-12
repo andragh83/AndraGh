@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b6a83df41e0cd2023a0e",
-    "url": "/AndraGh/static/css/main.263e0f3c.chunk.css"
+    "revision": "420dc3ff36ac7b1893b8",
+    "url": "/AndraGh/static/css/main.4c5f2b1b.chunk.css"
   },
   {
-    "revision": "b6a83df41e0cd2023a0e",
-    "url": "/AndraGh/static/js/main.b6a83df4.chunk.js"
+    "revision": "420dc3ff36ac7b1893b8",
+    "url": "/AndraGh/static/js/main.420dc3ff.chunk.js"
   },
   {
     "revision": "8c2c229837b720e0ba62",
     "url": "/AndraGh/static/js/runtime~main.8c2c2298.js"
   },
   {
-    "revision": "f08477d1e84149c5617b",
-    "url": "/AndraGh/static/js/2.f08477d1.chunk.js"
+    "revision": "2c07e52842a1bf9a1839",
+    "url": "/AndraGh/static/js/2.2c07e528.chunk.js"
   },
   {
     "revision": "65b0d8e3b8bbb18602a76aefa5290e23",
@@ -140,20 +140,20 @@ self.__precacheManifest = [
     "url": "/AndraGh/static/media/art1.98df3757.png"
   },
   {
-    "revision": "e671800ea254d70f65dfcbe019923e7c",
-    "url": "/AndraGh/static/media/Websites1.e671800e.jpeg"
+    "revision": "976b8dcf8526b0ad2603adc982456d27",
+    "url": "/AndraGh/static/media/Websites1.976b8dcf.jpeg"
   },
   {
-    "revision": "a8a9364eec71722925737ee063cf187e",
-    "url": "/AndraGh/static/media/Websites2.a8a9364e.jpg"
+    "revision": "e6db5cfe9d5b5090109705c1a3e25dc0",
+    "url": "/AndraGh/static/media/Websites2.e6db5cfe.jpeg"
   },
   {
-    "revision": "88901ff96da9940e33ca76ba0cb0869b",
-    "url": "/AndraGh/static/media/Websites3.88901ff9.png"
+    "revision": "5773cf20fd82f283d297d2443f537d1d",
+    "url": "/AndraGh/static/media/Websites3.5773cf20.jpeg"
   },
   {
-    "revision": "4ad12a49411333f3e82ab7472245c7c8",
-    "url": "/AndraGh/static/media/Websites4.4ad12a49.png"
+    "revision": "b211b5dd42b50cc5cf9fb4727b60fcca",
+    "url": "/AndraGh/static/media/Websites4.b211b5dd.jpeg"
   },
   {
     "revision": "cf8b686b294041d0925f4e745b1fabb9",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/AndraGh/static/media/avatar.40a731b7.jpg"
   },
   {
-    "revision": "17354845ea45d4534d044862f20ead0c",
+    "revision": "7627972d90302907f50d1fb01b7ccd2f",
     "url": "/AndraGh/index.html"
   }
 ];
