@@ -9,7 +9,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 import completedStyle from "assets/jss/material-kit-react/views/componentsSections/completedStyle.jsx";
-import avatar from "assets/img/avatar.jpg";
+import avatar from "assets/img/avatar.jpeg";
 
 class Profile extends React.Component {
   render() {
@@ -24,6 +24,7 @@ class Profile extends React.Component {
               <img
                   src={avatar}
                   alt="..."
+                  width="150px"
                   className={
                     classes.imgRaised +
                     " " +
@@ -37,7 +38,7 @@ class Profile extends React.Component {
                  I'm a visual artist and a tech geek.
               </h3> 
               <h4>
-              	I create illustrations, graphic designs and I build responsive websites.
+              I build responsive websites and web apps with custom graphics and illustrations I create myself.
               </h4>
               
             </GridItem>
